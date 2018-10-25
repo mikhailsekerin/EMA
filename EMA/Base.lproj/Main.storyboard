@@ -33,13 +33,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kris" translatesAutoresizingMaskIntoConstraints="NO" id="uEy-ly-9h1">
+                                <rect key="frame" x="62.5" y="368.5" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="67a-7T-nIn"/>
+                                    <constraint firstAttribute="width" constant="250" id="fYB-Wz-GE2"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Eqi-wy-1bj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="J1X-Q8-ciZ"/>
                             <constraint firstItem="Eqi-wy-1bj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MHV-cb-lcZ"/>
                             <constraint firstItem="Eqi-wy-1bj" firstAttribute="top" secondItem="cF3-cb-C3l" secondAttribute="bottom" constant="10" id="QYZ-qG-isD"/>
+                            <constraint firstItem="uEy-ly-9h1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hVm-uu-rYb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cF3-cb-C3l" secondAttribute="trailing" id="oe9-3o-qDW"/>
+                            <constraint firstItem="uEy-ly-9h1" firstAttribute="top" secondItem="Eqi-wy-1bj" secondAttribute="bottom" constant="20" id="tkB-aT-ihv"/>
                             <constraint firstItem="cF3-cb-C3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w4x-rY-yjw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -47,10 +56,14 @@
                     <connections>
                         <outlet property="knopka" destination="Eqi-wy-1bj" id="bpI-OC-awY"/>
                         <outlet property="tiPidorLabel" destination="cF3-cb-C3l" id="pTF-kg-UXG"/>
+                        <outlet property="whatAHandsomeBoiii" destination="uEy-ly-9h1" id="REl-cS-6vq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="kris" width="640" height="854"/>
+    </resources>
 </document>
